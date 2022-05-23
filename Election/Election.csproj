@@ -155,6 +155,42 @@
   <ItemGroup>
     <None Include="Resources\images.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddisAbaba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Afar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amhara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Benishangul-Gumuz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DireDawa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gambela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oromia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sidama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SNNP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\somali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tigray.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

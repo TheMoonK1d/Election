@@ -24,23 +24,29 @@ namespace Election
 
         private void startingPage_Load(object sender, EventArgs e)
         {
-
+            
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            this.Hide();
             Vote vote = new Vote();
             vote.Show();
+           
           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             superviseLogin svl = new superviseLogin();
             svl.Show();
-            
+
+        }
+
+        private void startingPage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
